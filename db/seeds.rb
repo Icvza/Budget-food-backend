@@ -5,3 +5,13 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+# this user id should be one 
+User.create(username: 'IsaacacDEzZZ')
+
+# this recipe id shoudl be one 
+Recipe.create(name: 'cereal', user_id: 1)
+
+
+Ingredient.create(name: 'cereal', recipe_id: 1)
+
